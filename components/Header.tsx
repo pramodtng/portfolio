@@ -24,15 +24,15 @@ export default function Header({ }: Props) {
             duration: 1.5
           }}
         >
-          <SocialIcon bgColor='transparent' fgColor='gray' url='https://www.youtube.com/watch?v=urgi2iz9P6U&t=304s' target= '_blank' />
+          <SocialIcon bgColor='transparent' fgColor='gray' url='https://www.youtube.com/watch?v=urgi2iz9P6U&t=304s' target='_blank' />
           <SocialIcon bgColor='transparent' fgColor='gray' url='https://www.linkedin.com/in/promod-tamang-5ab15720a/' target='_blank' />
-          <SocialIcon bgColor='transparent' fgColor='gray' url='https://github.com/pramodtng' target= '_blank' />
-          <SocialIcon bgColor='transparent' fgColor='gray' url='https://twitter.com/singay96' target='_blank'/>
+          <SocialIcon bgColor='transparent' fgColor='gray' url='https://github.com/pramodtng' target='_blank' />
+          <SocialIcon bgColor='transparent' fgColor='gray' url='https://twitter.com/singay96' target='_blank' />
         </motion.div>
       </div>
       <div className='flex flex-row items-center text-gray-300 cursor-pointer'>
         <motion.div
-          initial = {{
+          initial={{
             x: 500,
             opacity: 0,
             scale: 0.5
