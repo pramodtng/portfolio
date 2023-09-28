@@ -12,11 +12,11 @@ export default function Home() {
         <title>Hey There!</title>
       </Head>
       <Header />
-      <section id="hero" className='snap center'>
-        <Hero />
-      </section>
-      <About />
-      <WorkExperience />
+      // <section id="hero" className='snap center'>
+      //   <Hero />
+      // </section>
+      // <About />
+      // <WorkExperience />
     </div>
   )
 }
